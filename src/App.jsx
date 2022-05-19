@@ -8,7 +8,7 @@ function App() {
   useEffect(() => {
     axios.get("http://localhost:3001/pokemons").then(res=>{
     setPokemon(res.data.map(e=>
-     e.name.french
+     e.name.english
     ))
   })
   },[])
