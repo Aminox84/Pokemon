@@ -3,13 +3,31 @@ import ListeDePokemon from './ListeDePokemon'
 import './index.css';
 import axios from 'axios';
 
+
 function App() {
   const [pokemon, setPokemon]=useState([]);
   useEffect(() => {
     axios.get("http://localhost:3001/pokemons").then(res=>{
     setPokemon(res.data.map(e=>
-     e.name.english
-    ))
+      
+      
+      <div>
+        <div>ID: {e.id}</div>
+        <h1>{e.name.french}</h1>
+        <div>Speed: {e.base.Speed}</div>
+            
+        <br></br>
+        <div>
+          
+          <img src={require(`./pokemonimg/${e.id}.png`)} />
+        </div>
+
+
+      </div>
+      
+
+      ))
+      
   })
   },[])
 
@@ -20,5 +38,3 @@ function App() {
 
 export default App;
 
-
-/*Hello World push test stat aaaaaaaaaaaaaaas*/
