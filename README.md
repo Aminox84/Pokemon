@@ -68,3 +68,34 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+REACT PROJECT POKEMON: Useful terminal lines
+
+Server side:
+npm install json-server (To install the json serer within the script)
+npx json-server --watch db.json --port 3001
+
+
+Node side:
+1-npm install
+2-npm install react-dom
+3-npm start
+
+
+
+GITHUB SIDE:
+
+git commit -am "File test" (for exemple)
+-> git commit --all -am "test" (To Commit All changes)
+
+git push --all
+
+For BOOTSTRAP:
+
+npm i bootstrap@5.2.0-beta1 (command)
+
+Pour le formulaire, le HOOK FORM:
+
+npm install react-hook-form
+

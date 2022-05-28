@@ -1,4 +1,4 @@
-import React,{useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 
 import {
   BrowserRouter as Router,
@@ -14,36 +14,37 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
-
 function App() {
-  const [pokemon, setPokemon]=useState([]);
+  const [pokemon, setPokemon] = useState([]);
+
   useEffect(() => {
-    axios.get("http://localhost:3001/pokemons").then(res=>{
-    setPokemon(res.data.map(e=>
-      
-      
-      <div>
-        <div>ID: {e.id}</div>
-        <h1>{e.name.french}</h1>
-        <div>Speed: {e.base.Speed}</div>
-            
-        <br></br>
-        <div>
-          
-          <img src={require(`../../pokemonimg/${e.id}.png`)} />
+    axios.get("http://localhost:3001/pokemons").then(res => {
+      setPokemon(res.data.map(e =>
+        <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '50vh' }}>
+
+
+          <div>
+            <div>ID: {e.id}</div>
+            <h1>{e.name.french}</h1>
+            <div>Speed: {e.base.Speed}</div>
+
+            <br></br>
+            <div>
+              <img src={require(`../../pokemonimg/${e.id}.png`)} />
+            </div>
+
+
+          </div>
         </div>
 
 
-      </div>
-      
-
       ))
-      
-  })
-  },[])
+
+    })
+  }, [])
 
   return (
-     <ListeDePokemon pokemon={pokemon}/>
+    <ListeDePokemon pokemon={pokemon} />
   );
 }
 
