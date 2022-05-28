@@ -25,7 +25,7 @@ function App() {
   <div class="container container-pokemons">
   <div class="row">
     <div class="col">
-    <img src={  e.id <810 ? require(`../../pokemonimg/${e.id}.png`) : (`../../pokemonimg/unknown.png`)}/>
+    <img src={e.id <810 ? require(`../../pokemonimg/${e.id}.png`) : require(`../../pokemonimg/newPokemon.png`)}/>
     </div>
     <div class="col">
         <h3 id="ID">ID: {e.id}</h3>

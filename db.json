@@ -16584,6 +16584,74 @@
         "Sp. Defense": 65,
         "Speed": 34
       }
+    },
+    {
+      "name": {
+        "french": "Amine"
+      },
+      "type": [
+        "Feu"
+      ],
+      "base": {
+        "HP": 50,
+        "Attack": 50,
+        "Defense": 50,
+        "Sp. Attack": 50,
+        "Sp. Defense": 50,
+        "Speed": 50
+      },
+      "id": 810
+    },
+    {
+      "name": {
+        "french": "Amine2"
+      },
+      "type": [
+        "Feu"
+      ],
+      "base": {
+        "HP": 50,
+        "Attack": 50,
+        "Defense": 50,
+        "Sp. Attack": 50,
+        "Sp. Defense": 50,
+        "Speed": 50
+      },
+      "id": 811
+    },
+    {
+      "name": {
+        "french": "Amine3"
+      },
+      "type": [
+        "50"
+      ],
+      "base": {
+        "HP": 50,
+        "Attack": 50,
+        "Defense": 50,
+        "Sp. Attack": 50,
+        "Sp. Defense": 50,
+        "Speed": 50
+      },
+      "id": 812
+    },
+    {
+      "name": {
+        "french": "Amine45"
+      },
+      "type": [
+        "Feu"
+      ],
+      "base": {
+        "HP": 60,
+        "Attack": 70,
+        "Defense": 70,
+        "Sp. Attack": 70,
+        "Sp. Defense": 70,
+        "Speed": 70
+      },
+      "id": 813
     }
   ]
 }

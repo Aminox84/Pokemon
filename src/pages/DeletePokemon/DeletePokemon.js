@@ -14,13 +14,14 @@ function DeletePokemon() {
     .then((response) => {
       setPost(response.data);
     });
+    
   }, []);
 
   function deletePokemonX() {
     axios
       .delete(`${baseURL}${document.getElementById("pokemon-by-id-delete").value}`)
       .then(() => {
-        alert("post deleted");
+        alert("Le pokemon s'est bien supprimé!");
         setPost(null)
       });
   }

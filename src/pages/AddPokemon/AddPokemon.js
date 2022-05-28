@@ -3,6 +3,7 @@ import axios from 'axios';
 
 
 
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const dataBase = "http://localhost:3001/pokemons/"
@@ -46,8 +47,10 @@ function AddPokemon() {
       })
       .then((response) => {
         setPost(response.data);
+        
       });
-
+      window.alert("Un nouveau Pokemon s'est ajouté!")
+      
       }
       
 
@@ -74,7 +77,8 @@ function AddPokemon() {
         <br></br>
         <input id="pokemon-speed" type="text" placeholder="Vitesse?"></input>
         <br></br>
-        <button  type="button" class="btn btn-dark" onClick={createPost}>Ajouter</button>
+        <button  type="button" class="btn btn-dark" onClick={createPost } >Ajouter</button>
+        
     </div>
   )
 }

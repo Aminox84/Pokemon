@@ -33,6 +33,7 @@ const baseURL = "http://localhost:3001/pokemons/";
       .then((response) => {
         setPost(response.data);
       });
+      window.alert("Le Pokemon s'est bien modifié!")
   }
 
   
