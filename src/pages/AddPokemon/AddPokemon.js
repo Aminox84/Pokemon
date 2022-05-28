@@ -72,9 +72,9 @@ function AddPokemon() {
         <br></br>
         <input id="pokemon-sp-defense" type="text" placeholder="Sp.Defense?"></input>
         <br></br>
-        <input id="pokemon-speed" type="text" placeholder="Speed?"></input>
+        <input id="pokemon-speed" type="text" placeholder="Vitesse?"></input>
         <br></br>
-        <button  type="button" class="btn btn-dark" onClick={createPost}>Add Pokemon</button>
+        <button  type="button" class="btn btn-dark" onClick={createPost}>Ajouter</button>
     </div>
   )
 }

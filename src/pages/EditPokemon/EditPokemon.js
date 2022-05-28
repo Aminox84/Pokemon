@@ -39,25 +39,25 @@ const baseURL = "http://localhost:3001/pokemons/";
 
   return (
     <div>
-      <input id="pokemon-id" type="text" placeholder="ID du Pokemon?"></input>
+      <input id="pokemon-id" type="text" placeholder="l'id du Pokemon?"></input>
         <br></br>
-      <input id="pokemon-name" type="text" placeholder="New name of Pokemon?"></input>
+      <input id="pokemon-name" type="text" placeholder="Le nouveau nom?"></input>
         <br></br>
-        <input id="pokemon-type" type="text" placeholder="New type of Pokemon?"></input>
+        <input id="pokemon-type" type="text" placeholder="Nouveau type du Pokemon?"></input>
         <br></br>
-        <input id="pokemon-hp" type="text" placeholder=" NEW HP?"></input>
+        <input id="pokemon-hp" type="text" placeholder="HP?"></input>
         <br></br>
-        <input id="pokemon-attack" type="text" placeholder="New Attack?"></input>
+        <input id="pokemon-attack" type="text" placeholder="Attack?"></input>
         <br></br>
-        <input id="pokemon-defense" type="text" placeholder="New Defense?"></input>
+        <input id="pokemon-defense" type="text" placeholder="Defense?"></input>
         <br></br>
-        <input id="pokemon-sp-attack" type="text" placeholder="New Sp.Attack?"></input>
+        <input id="pokemon-sp-attack" type="text" placeholder="Sp.Attack?"></input>
         <br></br>
-        <input id="pokemon-sp-defense" type="text" placeholder="New Sp.Defense?"></input>
+        <input id="pokemon-sp-defense" type="text" placeholder="Sp.Defense?"></input>
         <br></br>
-        <input id="pokemon-speed" type="text" placeholder="New Speed?"></input>
+        <input id="pokemon-speed" type="text" placeholder="Vitesse?"></input>
         <br></br>
-        <button  type="button" class="btn btn-dark" onClick={updatePost}>EDIT Pokemon</button>
+        <button  type="button" class="btn btn-dark" onClick={updatePost}>Modifier</button>
     </div>
   )
 }

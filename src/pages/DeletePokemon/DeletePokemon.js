@@ -29,9 +29,9 @@ function DeletePokemon() {
 
   return (
     <div>
-    <input id="pokemon-by-id-delete" type="text" placeholder="Le ID du Pokemon"></input>
+    <input id="pokemon-by-id-delete" type="text" placeholder="L'id du Pokemon?"></input>
     <br></br>
-    <button type="button" class="btn btn-dark" onClick={deletePokemonX}>Delete Pokemon</button>
+    <button type="button" class="btn btn-dark" onClick={deletePokemonX}>Supprimer</button>
     </div>
   )
 }
