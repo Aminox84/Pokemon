@@ -1,4 +1,4 @@
-Pour que le projet démarre bien comme il faut, pensez écrire ces commandes sur au moins 3 terminaux différents:
+Pour que le projet démarre bien comme il faut, pensez bien à écrire ces commandes sur au moins 3 terminaux différents:
 
 Coté bootstrap:
 npm i bootstrap@5.2.0-beta1
