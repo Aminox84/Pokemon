@@ -11,16 +11,7 @@ function App() {
   useEffect(() => {
     axios.get("http://localhost:3001/pokemons").then(res=>{
     setPokemon(res.data.map(e=>
-   
-    /*  <div className="pokemon-container">
-        <img src={  e.id <810 ? require(`../../pokemonimg/${e.id}.png`) : (`../../pokemonimg/unknown.png`)}/>
-        <h3 id="ID">ID: {e.id}</h3>
-        <h5 id="Name">Name:{e.name.french}</h5>
-        <h6 id="Base">HP: {e.base.HP}</h6>
-        <h6 id="Attack">Attack: {e.base.Attack}</h6>
-        <h6 id="Speed">Speed: {e.base.Speed}</h6>
-        <h6 id="Defense">Defense: {e.base.Defense}</h6>
-      </div>*/
+  
 
   <div class="container container-pokemons">
   <div class="row">
