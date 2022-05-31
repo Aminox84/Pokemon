@@ -5,7 +5,7 @@ npm i bootstrap@5.2.0-beta1
 
 Coté server port 3001:
 npm install -g json-server +
-px json-server --watch db.json --port 3001
+npx json-server --watch db.json --port 3001
 
 Coté node port 3000:
 npm install react-dom +
